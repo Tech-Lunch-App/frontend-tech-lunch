@@ -1,5 +1,7 @@
+import Image from "next/image";
 import { useRouter } from "next/router";
-import Logo from "public/iconTechLunch.png"
+import Bosch from 'public/images/bosch.png'
+import Logo from 'public/images/Logo.png'
 
 
 function NavBar() {
@@ -8,19 +10,16 @@ function NavBar() {
 
     return (
         <>
-                <div className="navbar bg-base-100">
+        <Image className="w-full h-3" src={Bosch} />
+        <div className="navbar bg-base-100">
         <div className="flex-1">
-            <img src={Logo} alt="" />
-            <a className="btn btn-ghost text-xl"></a>
+        <Image className="pl-6" src={Logo} />
 
         </div>
         <div className="flex-none">
-
+            
             <div className="dropdown dropdown-end">
-            <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
-                <div className="indicator">
-                </div>
-            </div>
+       
             </div>
             <div className="dropdown dropdown-end">
             <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
