@@ -2,7 +2,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import fundoTech from "../../public/images/techFUndo.png" 
 
-function Cards() {
+function CardsBloquedos() {
 
     const router = useRouter()
 
@@ -15,7 +15,7 @@ function Cards() {
                 <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
             </div> 
             <div className="carousel-item w-full">
-                <img src="https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+                <img src="https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg" className="w-full bg-slate-300" alt="Tailwind CSS Carousel component" />
             </div> 
             <div className="carousel-item w-full">
                 <img src="https://daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
@@ -117,4 +117,4 @@ function Cards() {
     );
 }
 
-export default Cards;
+export default CardsBloquedos;

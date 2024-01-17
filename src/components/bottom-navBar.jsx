@@ -1,5 +1,6 @@
 import Logo from 'public/images/Logo.png'
 import Bosch from 'public/images/bosch.png'
+import Link from "next/link";
 
 import Image from "next/image";
 
@@ -20,9 +21,11 @@ function BottomNavBar() {
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
           </div>
           <ul tabIndex={0} className=" menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ">
-            <li><a>Home</a></li>
+            
+          <Link href="/"><li><p>Home</p></li></Link>
             <li><a>Meus Eventos</a></li>
-            <li><a>Meu Album</a></li>
+            <Link href="/my_album"><li><p>Meu Album</p></li></Link>
+            
             <li><a>Certificados</a></li>
           </ul>
         </div>
