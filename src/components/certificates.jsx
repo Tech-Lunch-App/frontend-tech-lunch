@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import Coala from 'public/images/coala.jpg';
+import Coala from 'public/images/Koala.jpg';
 import Image from "next/image";
 
 function Certificates() {

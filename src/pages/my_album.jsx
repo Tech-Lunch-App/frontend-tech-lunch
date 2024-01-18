@@ -1,6 +1,5 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import NavBar from '@/components/navbar';
 import BottomNavBar from '@/components/bottom-navBar';
 import { useRouter } from "next/router";
 import Carousel from "@/components/carousel";

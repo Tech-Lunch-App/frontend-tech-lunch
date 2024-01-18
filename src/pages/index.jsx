@@ -1,27 +1,27 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import NavBar from '@/components/navbar';
 import BottomNavBar from '@/components/bottom-navBar';
 import { useRouter } from "next/router";
 import Carousel from "@/components/carousel";
-import Cards from "@/components/cards"
+import CardsHome from "@/components/cardsHome"
+import Sobre from "@/components/sobre";
 
 function Adicionar() {
 
   return (<>
-    <div className="overflow-hidden ">
+    <div className="overflow-hidden bg-white">
       <div className="absolute w-full bg-[#222]">
-        <header className='fixed top-0 left-0 w-full z-10 bg-white shadow-md'>
-          {/* <NavBar /> */}
+        <header className='fixed top-0 left-0 w-full z-10 bg-white shadow-md '>
           <BottomNavBar />
-          <Carousel />
-          <h3 className="flex justify-center text-lg font-semibold">Proximos Eventos</h3>
-          <Cards />
         </header>
       </div>
-      <div className="flex flex-col justify-center items-center bg-[#222] h-screen w-screen">
+      <div className="flex flex-col justify-center items-center bg-white w-screen mt-18">
+        <Carousel />
+        <h3 className="flex justify-center text-lg font-semibold mt-10">Proximos Eventos</h3>
+        <CardsHome />
       </div>
       <div>
+        <Sobre />
       </div>
 
     </div>
