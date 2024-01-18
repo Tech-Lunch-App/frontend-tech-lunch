@@ -1,3 +1,6 @@
+import Bosch from 'public/images/bosch.png'
+import Image from "next/image";
+
 function Footer() {
     return (<>
         <div className="bg-[#3d3d3d] text-gray-300 body-font ">
@@ -29,6 +32,8 @@ function Footer() {
                     <p>&copy; 2023 TechLunch Todos os direitos reservados.</p>
                 </div>
             </div>
+            <Image className="w-full h-2" src={Bosch} />
+
         </div>
     </>);
 }

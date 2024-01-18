@@ -15,17 +15,22 @@ function Adicionar() {
         </header>
       </div>
       <div className="flex flex-col justify-center  bg-white h-screen w-screen">
-      <h3 className="flex justify-center text-lg font-semibold mt-40">Minhas Figurinhas</h3>
-          <Cards />
-          <h3 className="flex justify-center text-lg font-semibold mt-20">Figurinhas Bloqueadas</h3>
-          <CardsBloquedos />
+        <div className="mt-40">
+          <h3 className="pl-20 justify-center text-xl font-semibold mt-48">Minhas Figurinhas</h3>
+          <hr class="w-11/12 h-0.5 mx-auto my-4 bg-[#222] border-0 rounded md:my-10 dark:bg-gray-700" />
+        </div>
+        <Cards />
+        <div className="mt-6">
+          <h3 className="pl-20 justify-center text-xl font-semibold">Figurinhas Bloqueadas</h3>
+          <hr class="w-11/12 h-0.5 mx-auto my-4 bg-[#222] border-0 rounded md:my-10 dark:bg-gray-700" />
+        </div>
+        <CardsBloquedos />
       </div>
       <div>
       </div>
-      <footer className="mt-28">
-          <Footer/>
+      <footer className="mt-60">
+        <Footer />
       </footer>
-
     </div>
   </>);
 }

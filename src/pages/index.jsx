@@ -25,9 +25,8 @@ function Adicionar() {
         <Sobre />
       </div>
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
-
     </div>
   </>);
 }

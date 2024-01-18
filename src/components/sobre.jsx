@@ -10,18 +10,18 @@ function Sobre() {
         <>
             <div className="bg-[#d9d9d9] mt-24">
                 <div>
-                    <p className="text-[#222] pl-20 pt-10 text-2xl font-bold"> Sobre o TECHLUNCH </p>
+                    <p className="flex justify-center text-[#222] pt-8 text-xl font-semibold " > SOBRE O TECHLUNCH </p>
+                    <hr class="w-96 h-1.5 mx-auto my-4 bg-[#495cfb] border-0 rounded md:my-10 dark:bg-gray-700"/>
                 </div>
-                <div className="flex justify-evenly gap-20">
-                    <div className="w-7/12 pt-5">
-                        <p className="text-[#222]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel facilisis volutpat. Tristique risus nec feugiat in fermentum posuere urna. Mi quis hendrerit dolor magna eget est lorem. Nulla aliquet enim tortor at auctor. Auctor urna nunc id cursus metus aliquam eleifend mi in. Eu mi bibendum neque egestas congue quisque. Consectetur adipiscing elit duis tristique sollicitudin nibh sit. A iaculis at erat pellentesque adipiscing commodo elit at. At elementum eu facilisis sed odio. Non arcu risus quis varius quam quisque. In ante metus dictum at tempor commodo. A diam maecenas sed enim ut sem viverra. </p>
+                <div className="flex justify-center items-center gap-20 pb-28">
+                    <div className="w-96 ">
+                        <p className="text-[#222] text-2xl"> TechLunch é um evento que reúne profissionais das áreas para networking, discussões inovadoras e um almoço colaborativo. Os participantes recebem certificados de presença, e a cada evento, ganham uma figurinha exclusiva, tornando a experiência não apenas educativa, mas também memorável.</p>
                     </div>
-                    <div className="w-35 h-25 pb-16">
+                    <div className="w-35 h-25 ">
                         <Image src={fotoEvento} />
                     </div>
                 </div>
             </div>
-            
         </>
     );
 }

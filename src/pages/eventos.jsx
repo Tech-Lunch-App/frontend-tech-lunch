@@ -11,12 +11,12 @@ function Adicionar() {
                 </header>
             </div>
             <div>
-            <h3 className="flex justify-center text-lg font-semibold mt-36">Meus Eventos</h3>
-            <hr />
+                <h3 className="flex justify-center text-xl font-bold mt-36">Meus Eventos</h3>
 
-                <h3 className="pl-16 justify-center text-lg font-semibold mt-16">Minha Lista</h3>
+                <h3 className="pl-20 justify-center text-xl font-semibold mt-16">Minha Lista</h3>
+                <hr class="w-11/12 h-0.5 mx-auto my-4 bg-[#222] border-0 rounded md:my-10 dark:bg-gray-700" />
 
-                <div className=" pl-16 justify-center space-x-20 mt-14">
+                <div className=" pl-20 justify-center space-x-20 mt-14">
 
                     {/* card 1 */}
                     <div className="w-64 carousel rounded-box">
@@ -42,9 +42,10 @@ function Adicionar() {
                     </div>
                 </div>
 
-                <h3 className="pl-16 justify-center text-lg font-semibold mt-14">Presença Confirmada</h3>
+                <h3 className="pl-20 justify-center text-xl font-semibold mt-14">Presença Confirmada</h3>
+                <hr class="w-11/12 h-0.5 mx-auto my-4 bg-[#222] border-0 rounded md:my-10 dark:bg-gray-700" />
 
-                <div className=" pl-16 justify-center space-x-20 mt-14">
+                <div className=" pl-20 justify-center space-x-20 mt-14">
 
                     {/* card 1 */}
                     <div className="w-64 carousel rounded-box">
@@ -62,8 +63,10 @@ function Adicionar() {
                     </div>
                 </div>
 
-                <h3 className="pl-16 justify-center text-lg font-semibold mt-14">Eventos Anteriores</h3>
-                <div className=" pl-16 justify-center space-x-20 mt-14">
+                <h3 className="pl-20 justify-center text-xl font-semibold mt-14">Eventos Anteriores</h3>
+                <hr class="w-11/12 h-0.5 mx-auto my-4 bg-[#222] border-0 rounded md:my-10 dark:bg-gray-700" />
+
+                <div className=" pl-20 justify-center space-x-20 mt-14">
 
                     {/* card 1 */}
                     <div className="w-64 carousel rounded-box">
@@ -73,8 +76,8 @@ function Adicionar() {
                     </div>
                 </div>
             </div>
-            <footer className='pt-10'>
-            <Footer/>
+            <footer className='pt-14'>
+                <Footer />
             </footer>
         </div>
     </>);
