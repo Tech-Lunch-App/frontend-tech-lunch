@@ -11,10 +11,10 @@ function Adicionar() {
                 </header>
             </div>
             <div>
-                <h3 className="flex justify-center text-xl font-bold mt-36">Meus Eventos</h3>
+                <h3 className="flex justify-center text-xl font-semibold mt-32">Meus Eventos</h3>
 
-                <h3 className="pl-20 justify-center text-xl font-semibold mt-16">Minha Lista</h3>
-                <hr class="w-11/12 h-0.5 mx-auto my-4 bg-[#222] border-0 rounded md:my-10 dark:bg-gray-700" />
+                <h3 className="pl-20 justify-center text-xl font-semibold mt-12">Minha Lista</h3>
+                <hr class="w-11/12 h-0.5 mx-auto my-4 bg-[#c2c2c2] border-0 rounded md:my-10 dark:bg-gray-700" />
 
                 <div className=" pl-20 justify-center space-x-20 mt-14">
 
@@ -43,7 +43,7 @@ function Adicionar() {
                 </div>
 
                 <h3 className="pl-20 justify-center text-xl font-semibold mt-14">Presença Confirmada</h3>
-                <hr class="w-11/12 h-0.5 mx-auto my-4 bg-[#222] border-0 rounded md:my-10 dark:bg-gray-700" />
+                <hr class="w-11/12 h-0.5 mx-auto my-4 bg-[#c2c2c2] border-0 rounded md:my-10 dark:bg-gray-700" />
 
                 <div className=" pl-20 justify-center space-x-20 mt-14">
 
@@ -64,7 +64,7 @@ function Adicionar() {
                 </div>
 
                 <h3 className="pl-20 justify-center text-xl font-semibold mt-14">Eventos Anteriores</h3>
-                <hr class="w-11/12 h-0.5 mx-auto my-4 bg-[#222] border-0 rounded md:my-10 dark:bg-gray-700" />
+                <hr class="w-11/12 h-0.5 mx-auto my-4 bg-[#c2c2c2] border-0 rounded md:my-10 dark:bg-gray-700" />
 
                 <div className=" pl-20 justify-center space-x-20 mt-14">
 
