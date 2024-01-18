@@ -32,9 +32,9 @@ function BottomNavBar() {
       <div className="navbar-center hidden lg:flex ">
         <ul className="menu menu-horizontal px-1 p-1 space-x-40 text-base font-normal">
           <Link href="/"><li><p>Home</p></li></Link>
-          <li><a>Meus Eventos</a></li>
+          <Link href="my_events"><li><p>Meus Eventos</p></li></Link>
           <Link href="my_album"><li><p>Meu Album</p></li></Link>
-          <li><a>Certificados</a></li>
+          <Link href="my_certificates"><li><p>Certificados</p></li></Link>
         </ul>
       </div>
       <div className="navbar-end">

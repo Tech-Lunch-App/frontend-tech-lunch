@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import Image from "next/image";
-import Banner from 'public/images/Banner.jpg'
-import Banner2 from 'public/images/Banner2.jpg'
+import Banner from 'public/images/Banner.png'
+import Banner2 from 'public/images/banner2.png'
 
 function Carousel() {
 
