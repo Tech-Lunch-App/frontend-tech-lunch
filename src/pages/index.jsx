@@ -10,13 +10,13 @@ import Footer from "@/components/footer";
 function Adicionar() {
 
   return (<>
-    <div className="overflow-hidden bg-white">
+    <div className="overflow-hidden bg-white dark:bg-[#2f2f2f]">
       <div className="absolute w-full bg-[#222]">
         <header className='fixed top-0 left-0 w-full z-10 bg-white shadow-md'>
           <BottomNavBar />
         </header>
       </div>
-      <div className="flex flex-col justify-center items-center bg-white w-screen top-10">
+      <div className="flex flex-col justify-center items-center bg-white w-screen top-10 dark:bg-[#2f2f2f]">
         <Carousel />
         <h3 className="flex justify-center text-lg font-semibold mt-10">Proximos Eventos</h3>
         <CardsHome />
