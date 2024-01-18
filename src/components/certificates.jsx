@@ -8,7 +8,7 @@ function Certificates() {
 
     return (
         <>
-            <div className="artboard artboard-horizontal phone-1"><Image className="pl-6" src={Coala} /></div>
+            <div className="w-60 h-60"><Image className="pl-6 w-full" src={Coala} /></div>
         </>
     );
 }

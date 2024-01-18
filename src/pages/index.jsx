@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import Carousel from "@/components/carousel";
 import CardsHome from "@/components/cardsHome"
 import Sobre from "@/components/sobre";
+import Footer from "@/components/footer";
 
 function Adicionar() {
 
@@ -23,6 +24,9 @@ function Adicionar() {
       <div>
         <Sobre />
       </div>
+      <footer>
+        <Footer/>
+      </footer>
 
     </div>
   </>);
