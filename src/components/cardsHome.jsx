@@ -1,9 +1,12 @@
 import Image from "next/image";
-import { useRouter } from "next/router";
 import frame1 from 'public/images/framesEventos/frame1.png'
 import frame2 from 'public/images/framesEventos/frame2.png'
 import frame3 from 'public/images/framesEventos/frame3.png'
 import frame4 from 'public/images/framesEventos/frame4.png'
+import verso1 from 'public/images/framesEventos/verso1.png'
+import verso2 from 'public/images/framesEventos/verso2.png'
+import verso3 from 'public/images/framesEventos/verso3.png'
+import verso4 from 'public/images/framesEventos/verso4.png'
 
 
 function CardsHome() {
@@ -22,7 +25,7 @@ function CardsHome() {
                     </div></div>
                     <div class="swap-on"><div className="w-64 carousel rounded-box">
                         <div className="carousel-item w-full">
-                            <Image className="w-full" src={frame1} alt="Tailwind CSS Carousel component" />
+                            <Image className="w-full" src={verso1} alt="Tailwind CSS Carousel component" />
                         </div>
                     </div></div>
                 </label>
@@ -38,7 +41,7 @@ function CardsHome() {
                     </div></div>
                     <div class="swap-on"><div className="w-64 carousel rounded-box">
                         <div className="carousel-item w-full">
-                            <Image className="w-full" src={frame2} alt="Tailwind CSS Carousel component" />
+                            <Image className="w-full" src={verso2} alt="Tailwind CSS Carousel component" />
                         </div>
                     </div></div>
                 </label>
@@ -54,7 +57,7 @@ function CardsHome() {
                     </div></div>
                     <div class="swap-on"><div className="w-64 carousel rounded-box">
                         <div className="carousel-item w-full">
-                            <Image className="w-full" src={frame3} alt="Tailwind CSS Carousel component" />
+                            <Image className="w-full" src={verso3} alt="Tailwind CSS Carousel component" />
                         </div>
                     </div></div>
                 </label>
@@ -70,7 +73,7 @@ function CardsHome() {
                     </div></div>
                     <div class="swap-on"><div className="w-64 carousel rounded-box">
                         <div className="carousel-item w-full">
-                            <Image className="w-full" src={frame4} alt="Tailwind CSS Carousel component" />
+                            <Image className="w-full" src={verso4} alt="Tailwind CSS Carousel component" />
                         </div>
                     </div></div>
                 </label>

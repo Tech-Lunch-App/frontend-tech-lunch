@@ -6,9 +6,9 @@ function Sobre() {
     return (
         <>
             <div className="bg-[#d9d9d9] mt-24 dark:bg-[#454545]">
-                <div>
+                <div className="mb-10">
                     <p className="flex justify-center text-[#222] pt-8 text-xl font-bold dark:text-[#f6f6f6]" > SOBRE O TECHLUNCH </p>
-                    <hr class="w-1/3 h-1.5 mx-auto my-4 bg-[#495cfb] border-0 rounded md:my-10 dark:bg-[#5266b1]"/>
+                    <hr class="w-1/5 h-1.5 mx-auto bg-[#495cfb] border-0 rounded md:my-4 dark:bg-[#5266b1]"/>
                 </div>
                 <div className="flex justify-center items-center gap-60 pb-28">
                     <div className="w-96 ">
