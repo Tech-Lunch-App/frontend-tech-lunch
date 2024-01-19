@@ -1,5 +1,10 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
+import frame1 from 'public/images/framesEventos/frame1.png'
+import frame2 from 'public/images/framesEventos/frame2.png'
+import frame3 from 'public/images/framesEventos/frame3.png'
+import frame4 from 'public/images/framesEventos/frame4.png'
+
 
 function CardsHome() {
 
@@ -13,14 +18,14 @@ function CardsHome() {
             <label class="swap swap-flip text-9xl">
                 <input type="checkbox" />
                 
-                <div class="swap-on"><div className="w-64 carousel rounded-box">
-                <div className="carousel-item w-full">
-                    <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
-                </div> 
-                </div></div>
                 <div class="swap-off"><div className="w-64 carousel rounded-box">
                 <div className="carousel-item w-full">
-                    <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+                <Image className="w-full" src={frame1} alt="Tailwind CSS Carousel component"/> 
+                </div> 
+                </div></div>
+                <div class="swap-on"><div className="w-64 carousel rounded-box">
+                <div className="carousel-item w-full">
+                <Image className="w-full" src={frame1} alt="Tailwind CSS Carousel component"/> 
                 </div> 
                 </div></div>
             </label>
@@ -31,14 +36,15 @@ function CardsHome() {
             <label class="swap swap-flip text-9xl">
                 <input type="checkbox" />
                 
-                <div class="swap-on"><div className="w-64 carousel rounded-box">
-                <div className="carousel-item w-full">
-                    <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
-                </div> 
-                </div></div>
                 <div class="swap-off"><div className="w-64 carousel rounded-box">
                 <div className="carousel-item w-full">
-                    <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+                    
+                    <Image className="w-full" src={frame2} alt="Tailwind CSS Carousel component"/> 
+                </div> 
+                </div></div>
+                <div class="swap-on"><div className="w-64 carousel rounded-box">
+                <div className="carousel-item w-full">
+                <Image className="w-full" src={frame2} alt="Tailwind CSS Carousel component"/> 
                 </div> 
                 </div></div>
             </label>
@@ -48,14 +54,14 @@ function CardsHome() {
             <label class="swap swap-flip text-9xl">
                 <input type="checkbox" />
                 
-                <div class="swap-on"><div className="w-64 carousel rounded-box">
-                <div className="carousel-item w-full">
-                    <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
-                </div> 
-                </div></div>
                 <div class="swap-off"><div className="w-64 carousel rounded-box">
                 <div className="carousel-item w-full">
-                    <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+                <Image className="w-full" src={frame3} alt="Tailwind CSS Carousel component"/> 
+                </div> 
+                </div></div>
+                <div class="swap-on"><div className="w-64 carousel rounded-box">
+                <div className="carousel-item w-full">
+                <Image className="w-full" src={frame3} alt="Tailwind CSS Carousel component"/> 
                 </div> 
                 </div></div>
             </label>
@@ -65,14 +71,14 @@ function CardsHome() {
             <label class="swap swap-flip text-9xl">
                 <input type="checkbox" />
                 
-                <div class="swap-on"><div className="w-64 carousel rounded-box">
-                <div className="carousel-item w-full">
-                    <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
-                </div> 
-                </div></div>
                 <div class="swap-off"><div className="w-64 carousel rounded-box">
                 <div className="carousel-item w-full">
-                    <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+                <Image className="w-full" src={frame4} alt="Tailwind CSS Carousel component"/> 
+                </div> 
+                </div></div>
+                <div class="swap-on"><div className="w-64 carousel rounded-box">
+                <div className="carousel-item w-full">
+                <Image className="w-full" src={frame4} alt="Tailwind CSS Carousel component"/> 
                 </div> 
                 </div></div>
             </label>

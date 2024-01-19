@@ -6,6 +6,7 @@ import Carousel from "@/components/carousel";
 import CardsHome from "@/components/cardsHome"
 import Sobre from "@/components/sobre";
 import Footer from "@/components/footer";
+import frame1 from 'public/images/framesEventos/frame1.png'
 
 function Adicionar() {
 
@@ -18,7 +19,7 @@ function Adicionar() {
       </div>
       <div className="flex flex-col justify-center items-center bg-white w-screen top-10 dark:bg-[#2f2f2f]">
         <Carousel />
-        <h3 className="flex justify-center text-lg font-semibold mt-10">Proximos Eventos</h3>
+        <h3 className="flex justify-center text-lg font-semibold mt-10">Próximos Eventos</h3>
         <CardsHome />
       </div>
       <div>
