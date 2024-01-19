@@ -1,9 +1,7 @@
-import axios from "axios";
 import BottomNavBar from '@/components/bottom-navBar';
 import Cards from "@/components/cards"
 import CardsBloquedos from "@/components/cardsBloquedos";
 import Footer from "@/components/footer";
-
 
 function Adicionar() {
 
@@ -15,7 +13,6 @@ function Adicionar() {
         </header>
       </div>
       <h3 className="flex justify-center text-xl font-semibold mt-32">Álbum</h3>
-
       <div className="flex flex-col justify-center  bg-white h-screen w-screen dark:bg-[#2f2f2f]">
         <div className="mt-32">
           <h3 className="pl-20 justify-center text-xl font-semibold">Minhas Figurinhas</h3>

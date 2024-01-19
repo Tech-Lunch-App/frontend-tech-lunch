@@ -1,20 +1,16 @@
 import Logo from 'public/images/Logo.png'
 import Bosch from 'public/images/bosch.png'
 import Link from "next/link";
-
 import Image from "next/image";
-
-
-
 
 
 function BottomNavBar() {
   return (<>
 
-    <Image className="w-full h-2" src={Bosch} />
+    <Image className="w-full h-2" src={Bosch}/>
     <div className="navbar bg-base-100 h-20">
       <div className="navbar-start">
-        <Image className="p-1 w-52" src={Logo} />
+        <Image className="p-1 w-52" src={Logo}/>
 
         <div className="dropdown ">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -24,8 +20,7 @@ function BottomNavBar() {
             <Link href="/"><li><p>Home</p></li></Link>
             <Link href="eventos"><li><p>Meus Eventos</p></li></Link>
             <Link href="album"><li><p>Meu Album</p></li></Link>
-
-            <li><a>Certificados</a></li>
+            <Link href="certificados"><li><p>Certificados</p></li></Link>
           </ul>
         </div>
       </div>
@@ -53,7 +48,7 @@ function BottomNavBar() {
         <h3 className='px-2'>User</h3>
       </div>
     </div>
-    
+
   </>);
 }
 

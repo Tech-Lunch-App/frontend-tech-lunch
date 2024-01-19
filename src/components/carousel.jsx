@@ -1,11 +1,8 @@
-import { useRouter } from "next/router";
 import Image from "next/image";
 import Banner from 'public/images/Banner.png'
 import Banner2 from 'public/images/banner2.png'
 
 function Carousel() {
-
-    const router = useRouter()
 
     return (
         <>
@@ -18,7 +15,7 @@ function Carousel() {
                     </div>
                 </div>
                 <div id="slide2" className="carousel-item relative w-full">
-                    <Image src={Banner} className="w-full"/>
+                    <Image src={Banner} className="w-full" />
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1" className="btn btn-circle">❮</a>
                         <a href="#slide3" className="btn btn-circle">❯</a>

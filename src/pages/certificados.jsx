@@ -13,15 +13,11 @@ function Adicionar() {
       </div>
       <div className="flex flex-col items-center bg-white h-screen w-screen mt-28 dark:bg-[#2f2f2f]">
       <h3 className="flex text-xl font-semibold">Meus Certificados</h3>
-      <hr class="w-11/12 h-0.5 mx-auto my-4 bg-[#c2c2c2] border-0 rounded md:my-10 dark:bg-[#757575]" />
-
           <Certificates />
       </div>
       <div>
       <Footer/>
-
       </div>
-
     </div>
   </>);
 }

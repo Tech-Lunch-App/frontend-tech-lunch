@@ -1,10 +1,7 @@
 import Image from "next/image";
-import { useRouter } from "next/router";
 import fotoEvento from 'public/images/fotoEvento.png'
 
 function Sobre() {
-
-    const router = useRouter()
 
     return (
         <>
@@ -18,7 +15,7 @@ function Sobre() {
                         <p className="text-[#222] text-2xl dark:text-[#f6f6f6]"> TechLunch é um evento que reúne profissionais das áreas para networking, discussões inovadoras e um almoço colaborativo. Os participantes recebem certificados de presença, e a cada evento, ganham uma figurinha exclusiva, tornando a experiência não apenas educativa, mas também memorável.</p>
                     </div>
                     <div className="w-35 h-25 ">
-                        <Image src={fotoEvento} />
+                        <Image src={fotoEvento}/>
                     </div>
                 </div>
             </div>
