@@ -1,5 +1,10 @@
 import BottomNavBar from '@/components/bottom-navBar';
+import Image from "next/image";
 import Footer from '@/components/footer';
+import frame1 from 'public/images/framesEventos/frame1.png'
+import frame2 from 'public/images/framesEventos/frame2.png'
+import frame3 from 'public/images/framesEventos/frame3.png'
+import frame4 from 'public/images/framesEventos/frame4.png'
 
 function Adicionar() {
 
@@ -11,7 +16,18 @@ function Adicionar() {
                 </header>
             </div>
             <div>
-                <h3 className="flex justify-center text-xl font-semibold mt-32">Meus Eventos</h3>
+                <div className="flex items-center justify-between mt-32 mr-20">
+                    <h3 className="flex ml-20 text-xl font-semibold">Meus Eventos</h3>
+
+                    <div className="flex gap-10 items-center font-semibold text-lg">
+                        <p> Registrar Presença </p>
+                        <button className="btn-sm btn btn-circle border-none  border-black bg-[#b6b6b6] hover:bg-[#919191] items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="black" className="w-4 h-4 ">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
 
                 <h3 className="pl-20 justify-center text-xl font-semibold mt-12">Minha Lista</h3>
                 <hr class="w-11/12 h-0.5 mx-auto my-4 bg-[#c2c2c2] border-0 rounded md:my-10 dark:bg-[#757575]" />
@@ -21,7 +37,7 @@ function Adicionar() {
                     {/* card 1 */}
                     <div className="w-64 carousel rounded-box">
                         <div className="carousel-item w-full">
-                            <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+                        <Image src={frame2} className="w-full"/>
                         </div>
                     </div>
 
@@ -29,15 +45,7 @@ function Adicionar() {
 
                     <div className="w-64 carousel rounded-box">
                         <div className="carousel-item w-full">
-                            <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
-                        </div>
-                    </div>
-
-                    {/* card 3 */}
-
-                    <div className="w-64 carousel rounded-box">
-                        <div className="carousel-item w-full">
-                            <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+                        <Image src={frame3} className="w-full"/>
                         </div>
                     </div>
                 </div>
@@ -48,17 +56,10 @@ function Adicionar() {
                 <div className=" pl-20 justify-center space-x-20 mt-14">
 
                     {/* card 1 */}
-                    <div className="w-64 carousel rounded-box">
-                        <div className="carousel-item w-full">
-                            <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
-                        </div>
-                    </div>
-
-                    {/* card 2 */}
 
                     <div className="w-64 carousel rounded-box">
                         <div className="carousel-item w-full">
-                            <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+                        <Image src={frame4} className="w-full"/>
                         </div>
                     </div>
                 </div>
@@ -71,7 +72,7 @@ function Adicionar() {
                     {/* card 1 */}
                     <div className="w-64 carousel rounded-box">
                         <div className="carousel-item w-full">
-                            <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+                        <Image src={frame1} className="w-full"/>
                         </div>
                     </div>
                 </div>
