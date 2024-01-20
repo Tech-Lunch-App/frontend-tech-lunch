@@ -1,6 +1,4 @@
-import Image from "next/image";
-
-function MenuAdmin() {
+function GerEventos() {
 
     return (
         <>
@@ -19,9 +17,14 @@ function MenuAdmin() {
                 <div className="w-9/12 bg-white rounded-box mr-24">
 
                     <div className="flex justify-between mx-24 mt-12">
-                        <h2 className="text-black text-lg font-semibold"> Quadro de Eventos </h2>
+                        <h2 className="text-black text-lg font-semibold"> Gerenciamento de Eventos </h2>
 
                         <button className="btn btn-sm bg-[#d9d9d9] rounded-box"> + Adicionar Evento </button>
+                    </div>
+
+                    <div className="h-9/12 mt-10 ml-24">
+                    <input type="text" placeholder="Adicionar Título" className="input input-bordered input-sm w-full max-w-xs" />
+
                     </div>
                 </div>
 
@@ -30,4 +33,4 @@ function MenuAdmin() {
     );
 }
 
-export default MenuAdmin;
+export default GerEventos;
