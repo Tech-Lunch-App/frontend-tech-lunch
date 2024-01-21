@@ -19,13 +19,26 @@ function Adicionar() {
                 <div className="flex items-center justify-between mt-32 mr-20">
                     <h3 className="flex ml-20 text-xl font-semibold">Meus Eventos</h3>
 
-                    <div className="flex gap-10 items-center font-semibold text-lg">
+                    <div className="flex gap-6 items-center font-semibold text-lg">
                         <p> Registrar Presença </p>
-                        <button className="btn-sm btn btn-circle border-none  border-black bg-[#b6b6b6] hover:bg-[#919191] items-center">
+                        <button className="btn-sm btn btn-circle border-none  border-black bg-[#b6b6b6] hover:bg-[#919191] items-center"
+                            onClick={() => document.getElementById('my_modal_4').showModal()}>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="black" className="w-4 h-4 ">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
                             </svg>
                         </button>
+                        <dialog id="my_modal_4" className="modal">
+                            <div className="modal-box w-11/12 max-w-3xl">
+                                <h3 className="font-bold text-lg"> Insira o código do evento: </h3>
+                                <input type="text" placeholder="Type here" className="input w-full max-w-xs bg-[#E8E8E8] mt-3" />
+                                <div className="modal-action">
+                                    <form method="dialog">
+                                        {/* if there is a button, it will close the modal */}
+                                        <button className="btn">Enviar</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </dialog>
                     </div>
                 </div>
 
@@ -37,7 +50,7 @@ function Adicionar() {
                     {/* card 1 */}
                     <div className="w-64 carousel rounded-box">
                         <div className="carousel-item w-full">
-                        <Image src={frame2} className="w-full"/>
+                            <Image src={frame2} className="w-full" />
                         </div>
                     </div>
 
@@ -45,7 +58,7 @@ function Adicionar() {
 
                     <div className="w-64 carousel rounded-box">
                         <div className="carousel-item w-full">
-                        <Image src={frame3} className="w-full"/>
+                            <Image src={frame3} className="w-full" />
                         </div>
                     </div>
                 </div>
@@ -59,7 +72,7 @@ function Adicionar() {
 
                     <div className="w-64 carousel rounded-box">
                         <div className="carousel-item w-full">
-                        <Image src={frame4} className="w-full"/>
+                            <Image src={frame4} className="w-full" />
                         </div>
                     </div>
                 </div>
@@ -72,7 +85,7 @@ function Adicionar() {
                     {/* card 1 */}
                     <div className="w-64 carousel rounded-box">
                         <div className="carousel-item w-full">
-                        <Image src={frame1} className="w-full"/>
+                            <Image src={frame1} className="w-full" />
                         </div>
                     </div>
                 </div>

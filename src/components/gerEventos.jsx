@@ -81,11 +81,54 @@ function GerEventos() {
                                         <p className="font-medium mb-2"> Insira os e-mails dos colaboradores da organização </p>
                                         <div className="flex items-center gap-3">
                                             <input type="text" placeholder="example@techlunch.com" className="input input-bordered input-sm w-full max-w-s" />
-                                            <button className="btn-xs btn btn-circle border-none  border-black bg-[#b6b6b6] hover:bg-[#919191] items-center">
+                                            <button className="btn-xs btn btn-circle border-none  border-black bg-[#b6b6b6] hover:bg-[#919191] items-center"
+                                                onClick={() => document.getElementById('my_modal_4').showModal()}>
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="black" className="w-4 h-4 ">
                                                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
                                                 </svg>
                                             </button>
+                                            <dialog id="my_modal_4" className="modal">
+                                                <div className="modal-box w-11/12 max-w-3xl">
+                                                    <h3 className="font-bold text-lg"> Qual função esse email ficará responsável? </h3>
+                                                    {/* checkbox 1 */}
+                                                    <div className="form-control flex w-40">
+                                                        <label className="label cursor-pointer">
+                                                            <span className="label-text">Buffet</span>
+                                                            <input type="checkbox" className="checkbox" />
+                                                        </label>
+                                                    </div>
+
+                                                    {/* checkbox 2 */}
+                                                    <div className="form-control flex w-40">
+                                                        <label className="label cursor-pointer">
+                                                            <span className="label-text">Cadeiras e mesas</span>
+                                                            <input type="checkbox" className="checkbox" />
+                                                        </label>
+                                                    </div>
+
+                                                    {/* checkbox 3 */}
+                                                    <div className="form-control flex w-40">
+                                                        <label className="label cursor-pointer">
+                                                            <span className="label-text">Decoração</span>
+                                                            <input type="checkbox" className="checkbox" />
+                                                        </label>
+                                                    </div>
+
+                                                    {/* checkbox 4 */}
+                                                    <div className="form-control flex w-40">
+                                                        <label className="label cursor-pointer">
+                                                            <span className="label-text">Entretenimento</span>
+                                                            <input type="checkbox" className="checkbox" />
+                                                        </label>
+                                                    </div>
+                                                    <div className="modal-action">
+                                                        <form method="dialog">
+                                                            {/* if there is a button, it will close the modal */}
+                                                            <button className="btn">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </dialog>
                                         </div>
                                     </div>
                                     <label class="form-control mt-10 ml-6">
@@ -94,10 +137,18 @@ function GerEventos() {
                                 </div>
                             </div>
                             <div className="flex justify-center mt-2 pb-10">
-                                <button className="btn rounded-box bg-[#2CA2F0] text-white hover:bg-sky-700">Criar Evento</button>
+                                <a href="#my_modal_8" className="btn rounded-box bg-[#2CA2F0] text-white hover:bg-sky-700">Criar Evento</a>
+                                <div className="modal" role="dialog" id="my_modal_8">
+                                    <div className="modal-box">
+                                        <p className="font-bold text-lg ">Evento criado com sucesso!</p>
+                                        <div className="modal-action">
+                                            <a href="admin" className="btn btn-sm">Close</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>  
+                    </div>
 
                 </div>
             </div>
