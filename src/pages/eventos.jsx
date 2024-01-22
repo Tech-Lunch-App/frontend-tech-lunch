@@ -1,10 +1,10 @@
 import BottomNavBar from '@/components/bottom-navBar';
 import Image from "next/image";
 import Footer from '@/components/footer';
-import frame1 from 'public/images/framesEventos/frame1.png'
-import frame2 from 'public/images/framesEventos/frame2.png'
-import frame3 from 'public/images/framesEventos/frame3.png'
-import frame4 from 'public/images/framesEventos/frame4.png'
+import frame1 from 'public/images/framesEventos/frame1 (7).png'
+import frame2 from 'public/images/framesEventos/frame1 (1).png'
+import frame3 from 'public/images/framesEventos/frame1 (3).png'
+import frame4 from 'public/images/framesEventos/frame1 (4).png'
 
 function Adicionar() {
 
@@ -33,8 +33,24 @@ function Adicionar() {
                                 <input type="text" placeholder="Type here" className="input w-full max-w-xs bg-[#E8E8E8] mt-3" />
                                 <div className="modal-action">
                                     <form method="dialog">
-                                        {/* if there is a button, it will close the modal */}
-                                        <button className="btn">Enviar</button>
+                                        <button className="btn" onClick={() => document.getElementById('my_modal_1').showModal()}>Enviar</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </dialog>
+                        <dialog id="my_modal_1" className="modal ">
+                            <div className="modal-box">
+                                <h3 className="font-bold text-2xl">Sucesso!</h3>
+                                <div className='flex items-center pl-2 gap-2'>
+                                <p className="py-4 text-xl">Presença Registrada!</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+                                </svg>
+                                </div>
+                                
+                                <div className="modal-action">
+                                    <form method="dialog">
+                                        <button className="btn">Fechar</button>
                                     </form>
                                 </div>
                             </div>
