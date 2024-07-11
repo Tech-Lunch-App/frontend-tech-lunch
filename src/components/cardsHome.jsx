@@ -16,9 +16,9 @@ function CardsHome() {
 
                 {/* card 1 */}
 
-                <label class="swap swap-flip text-9xl">
+                <label className="swap swap-flip text-9xl">
                     <input type="checkbox" />
-                    <div class="swap-off"><div className="w-64 carousel rounded-box">
+                    <div className="swap-off"><div className="w-64 carousel rounded-box">
                         <div className="carousel-item w-full">
                             <Image className="w-full" src={frame1} alt="Tailwind CSS Carousel component" />
                         </div>
@@ -32,14 +32,14 @@ function CardsHome() {
 
                 {/* card 2 */}
 
-                <label class="swap swap-flip text-9xl">
+                <label className="swap swap-flip text-9xl">
                     <input type="checkbox" />
-                    <div class="swap-off"><div className="w-64 carousel rounded-box">
+                    <div className="swap-off"><div className="w-64 carousel rounded-box">
                         <div className="carousel-item w-full">
                             <Image className="w-full" src={frame2} alt="Tailwind CSS Carousel component" />
                         </div>
                     </div></div>
-                    <div class="swap-on"><div className="w-64 carousel rounded-box">
+                    <div className="swap-on"><div className="w-64 carousel rounded-box">
                         <div className="carousel-item w-full">
                             <Image className="w-full" src={verso2} alt="Tailwind CSS Carousel component" />
                         </div>
@@ -48,14 +48,14 @@ function CardsHome() {
 
                 {/* card 3 */}
 
-                <label class="swap swap-flip text-9xl">
+                <label className="swap swap-flip text-9xl">
                     <input type="checkbox" />
-                    <div class="swap-off"><div className="w-64 carousel rounded-box">
+                    <div className="swap-off"><div className="w-64 carousel rounded-box">
                         <div className="carousel-item w-full">
                             <Image className="w-full" src={frame3} alt="Tailwind CSS Carousel component" />
                         </div>
                     </div></div>
-                    <div class="swap-on"><div className="w-64 carousel rounded-box">
+                    <div className="swap-on"><div className="w-64 carousel rounded-box">
                         <div className="carousel-item w-full">
                             <Image className="w-full" src={verso3} alt="Tailwind CSS Carousel component" />
                         </div>
@@ -64,14 +64,14 @@ function CardsHome() {
 
                 {/* card 4 */}
 
-                <label class="swap swap-flip text-9xl">
+                <label className="swap swap-flip text-9xl">
                     <input type="checkbox" />
-                    <div class="swap-off"><div className="w-64 carousel rounded-box">
+                    <div className="swap-off"><div className="w-64 carousel rounded-box">
                         <div className="carousel-item w-full">
                             <Image className="w-full" src={frame4} alt="Tailwind CSS Carousel component" />
                         </div>
                     </div></div>
-                    <div class="swap-on"><div className="w-64 carousel rounded-box">
+                    <div className="swap-on"><div className="w-64 carousel rounded-box">
                         <div className="carousel-item w-full">
                             <Image className="w-full" src={verso4} alt="Tailwind CSS Carousel component" />
                         </div>
